@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F9D58"
+    android:padding="16dp">
+    <!-- Add some background color -->
+
+    <TextView
+
+        android:text="@string/bto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="60sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickStart"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:text="@string/start" />
+
+        <Button
+
+            android:id="@+id/stop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:minHeight="48dp"
+            android:onClick="onClickStop"
+            android:text="@string/stop"
+            android:padding="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:onClick="onClickReset"
+            android:text="@string/reset"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:text="@string/hardcore"
+        android:id="@+id/hardcore"
+        />
+
+    <TextView
+        android:id="@+id/roll"
+        android:text="@string/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="80sp" />
+    <TextView
+        android:id="@+id/dice"
+        android:text="@string/quarter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:padding="30dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="60sp" />
+    <TextView
+        android:text="@string/consecutive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/chance"
+        android:text="@string/chance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="30sp" />
+</LinearLayout>
+

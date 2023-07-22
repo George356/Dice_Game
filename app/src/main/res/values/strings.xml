@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dice Game</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="six">1</string>
+    <string name="bto">Beat the odds</string>
+    <string name="quarter">The D4!</string>
+    <string name="hardcore">Hardcore!</string>
+    <string name="consecutive">Hardcore chance of success</string>
+    <string name="chance">0.25%</string>
+</resources>
